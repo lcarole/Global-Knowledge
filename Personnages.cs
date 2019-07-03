@@ -3,7 +3,11 @@ class Personnage {
 
 	}
 
+<<<<<<< HEAD
 	public void Deplacer(Direction direction){
+=======
+	void Lieu regarder(Direction direction, int distance){
+>>>>>>> evo
 		
 	}
 }
