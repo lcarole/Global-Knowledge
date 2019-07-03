@@ -9,25 +9,4 @@ Cet audit avait pour but de faire un inventaire des ressources informatiques ain
 
 Afin de réaliser ce projet, j'ai discuté avec chacun des membres du service informatique afin de faire un inventaire de tout les ressources importantes qu'ils utilisent.
 
-Une fois fait, j'ai rentré toute ces données dans une base de données.
-
-#!sql#
-  DROP database IF EXISTS Ressources;
-  CREATE database Ressources;
-  USE Ressources;
-
-  CREATE TABLE Criticité(
-    idCriticité INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    nom varchar(10));
-
-  CREATE TABLE Services(
-    idService INT PRIMARY KEY NOT NULL,
-    nom varchar(20),
-    criticité INT,
-    FOREIGN KEY (criticité) REFERENCES Criticité(idCriticité));
-
-  CREATE TABLE Dépendances(
-    service INT NOT NULL,
-    dépendance INT,
-    FOREIGN KEY (service) REFERENCES Services(idService),
-    FOREIGN KEY (dépendance) REFERENCES  Services(idService));
+Une fois fait, j'ai rentré toute ces données dans une base de données créer avec MySQL.
