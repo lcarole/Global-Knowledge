@@ -34,7 +34,14 @@ La seconde la fonction redirect_post, me permet de prendre la variable récupér
 Une fois fait, le nom de la ressource est stockée dans une variable appelé $_POST["nom"].
 
 
-![]()
+![](https://zupimages.net/up/19/27/z3vi.png)
 
 Cette variable permettra ensuite d'utiliser le nom de la ressource dans de 2 requêtes.
 La première nommée $req permettant d'afficher les dépendances d'une ressource.
+Et la seconde nommée $req2 permettant d'afficher les ressources dont dépend celle sélectionnée.
+
+![](https://zupimages.net/up/19/27/arq4.png)
+
+Grâce à la boucle while, le résultat de la requête sera affiché ligne par ligne et chaque ligne sera affiché dans un block.
+
+En cliquant sur un des blocks, dans ce cas-là l'utilisateur affichera les dépendances du block sélectionnée et il pourra continuer sans avoir à retourner sur le block principal.
