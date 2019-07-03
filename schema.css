@@ -1,0 +1,107 @@
+body{
+	font-family : 'Arial';
+	color: white;
+	background-image: url("Informatique.jpg");
+	background-attachment: fixed;
+}
+
+table{
+	width: 50%;
+	margin: auto;
+}
+
+td,th{
+    padding: 30px;
+	margin: 5px;
+	color: red;
+	text-align: center;
+	background-color: #ffffffcc;
+}
+
+th{
+	border: 1px solid;
+	border-color: white;
+	font-weight: bold;
+}
+
+td{
+	border: 5px solid red;
+	font-size: 24px;
+	position: static;
+}
+
+.affichage{
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: 100%;
+	text-align: center;
+}
+
+.conteneur{
+	/* display: table; */
+	width: 50%;
+	padding: 10px;
+	margin: auto;
+}
+
+.titre{
+	color: black;
+	font-weight: bold;
+	border-color: black;
+
+}
+
+.ligne1{
+	display: flex;
+	justify-content: space-center;
+	text-align: center;
+}
+
+hr{
+	background-color: white;
+	border-color: white;
+}
+
+.ligne2{
+	display: flex;
+	justify-content: space-center;
+	text-align: center;
+}
+
+.contenu{
+	display: table-cell;
+	position: relative;
+	padding: 20px;
+	margin: auto;
+	background-color: #ffffffbb;
+	border: 5px solid;
+	border-color:red;
+	color: red;
+	height: 40px;
+    width: 70;
+}
+.contenu:hover , .contenu2:hover{
+	background-color: white;
+	font-weight: bold;
+}
+
+.contenu2{
+	position: relative;
+	padding: 20px;
+	margin: auto;
+	background-color: #ffffffcc;
+	border: 5px solid;
+	border-color:red;
+	color: red;
+}
+
+.titre {
+	position: relative;
+	padding: 20px;
+	margin: auto;
+	background-color: #ffffffcc;
+	border: 5px solid;
+	width: 200px;
+	text-align: center;
+}
