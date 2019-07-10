@@ -23,7 +23,7 @@ Une fois fait j'ai réalisé un code php qui permettait d'afficher le contenu de
 Dans cette portion de code nous pouvons voir la manière dont j'accède à la base de données grâce à mysqli_connect. Grâce à cette fonction je vais pouvoir accéder et afficher le contenu de ma base de données.
 
 
-![](https://zupimages.net/up/19/27/jghw.png)
+![](https://www.zupimages.net/up/19/27/jghw.png)
 
 Dans cette 3ème image, nous pouvons voir 2 fonctions javascript.
 La première nommée my_function me permet de récupérer une variable php sur laquelle on a cliqué (onclick) et de la stocker dans une variable php.
